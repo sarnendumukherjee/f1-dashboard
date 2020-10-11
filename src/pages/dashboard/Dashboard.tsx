@@ -19,22 +19,20 @@ const Dashboard = () => {
             </Typography>
           </Box>
           <Divider />
-          <div>
-            <List dense>
-              {loading && <Loader />}
-              {error && (
-                <Alert severity="error">
-                  Something Went Wrong! Try again later!
-                </Alert>
-              )}
-              {seasons.map((season, index) => (
-                <div key={index}>
-                  <SeasonListItem season={season} />
-                  <Divider />
-                </div>
-              ))}
-            </List>
-          </div>
+          <List dense>
+            {loading && <Loader />}
+            {error && (
+              <Alert severity="error">
+                Something Went Wrong! Try again later!
+              </Alert>
+            )}
+            {seasons.map((season, index) => (
+              <div key={index}>
+                <SeasonListItem season={season} />
+                <Divider />
+              </div>
+            ))}
+          </List>
         </Grid>
       </Grid>
     </Paper>

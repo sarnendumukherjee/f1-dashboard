@@ -1,3 +1,30 @@
+# F1 Dashboard
+
+## Demo
+
+#### This app is deployed on heroku. Please find below the link
+
+[https://sarnendu-f1-dashboard.herokuapp.com/](https://sarnendu-f1-dashboard.herokuapp.com/)
+
+## Challenges
+
+1. Finding the correct endpoint which will return the required data in most efficient way, which would satisfy the requirement was a bit tricky.
+
+## Some important info
+
+1. Technologies used are React, MaterialUI
+2. Used typescript to write type safe code
+3. 100% test coverage with Enzyme and @testing-library
+4. The App is responsive for mobile, tab and laptop screen.
+
+## Commands to run and test the app
+
+1. Run `npm i` inside the root folder
+2. Run `npm start` to start the app
+3. Navigate to [http://localhost:3000/](http://localhost:3000/) to see the app running
+4. To run the tests please run `npm test` inside root folder
+5. To see the code coverage please run `npm test -- --coverage`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
